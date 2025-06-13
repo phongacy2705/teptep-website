@@ -12,14 +12,8 @@ export default function GlobalStylesAndFonts() {
         --mau-text-phu: #475569;
         --mau-nen-toi: #1e293b;
       }
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
       body {
         font-family: 'Be Vietnam Pro', sans-serif;
         background-color: #fff;
